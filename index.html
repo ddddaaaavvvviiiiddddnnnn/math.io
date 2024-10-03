@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Math Quiz Game</h1>
+        <div id="quiz-area">
+            <p id="instructions">Press "Start" to begin the quiz!</p>
+            <button id="start-button">Start</button>
+
+            <div id="problem-area" class="hidden">
+                <p id="problem"></p>
+                <input type="text" id="answer-input" placeholder="Enter your answer">
+                <button id="submit-button">Submit</button>
+            </div>
+        </div>
+
+        <div id="result-area" class="hidden">
+            <p id="result"></p>
+            <p id="time"></p>
+            <p id="wrong-attempts"></p>
+            <button id="restart-button">Restart</button>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
